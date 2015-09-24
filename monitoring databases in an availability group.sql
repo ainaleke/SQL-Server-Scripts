@@ -63,8 +63,8 @@ BEGIN
 EXEC msdb.dbo.sp_send_dbmail
 @subject=@subjectMail,
 @profile_name='TempDB Monitor',
-@recipients='applicationdelivery@interswitchng.com',
-@copy_recipients='ppm@interswitchng.com',
+@recipients='applicationdelivery@abcng.com',
+@copy_recipients='ppm@abcng.com',
 @body=@body1,
 @importance='High';
 END
